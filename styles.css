@@ -1,0 +1,12 @@
+body {
+    background-color: #9af5d2
+}
+
+input,
+select {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}

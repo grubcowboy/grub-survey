@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTC-8">
+    <title>Grub Cowboy Survey</title>
+    <link rel="stylesheet" href="styles.css" </head>
+
+<body>
+    <h1 id="title">Grub Cowboy Survey</h1>
+    <p id="description">🪱 Please let us know how you enjoy to see your grubs 🪱</p>
+    <form id="survey-form">
+        <label id="name-label">Name: <input id="name" type="text" required placeholder="Your Name Here"></label>
+        <label id="email-label">Email: <input id="email" type="email" required placeholder="Email Address Here" </label>
+            <label id="number-label">Number: <input id="number" type="number" placeholder="0-100" required min="0"
+                    max="100"></label>
+            <label for="grub-preference">Where do you like to see grubs?
+                <select id="dropdown">
+                    <option value="">Select one</option>
+                    <option value="1">In nature</option>
+                    <option value="2">In a terrarium</option>
+                    <option value="3">Not at all</option>
+                </select>
+            </label>
+            <fieldset>
+                <legend>Which grub do you prefer?</legend>
+                <div>
+                    <input type="radio" checked class="inline" name="grub" id="japanese-beetle"
+                        value="japanese-beetle"><label for="japanese-beetle"> Japanese Beetle</label>
+                </div>
+                <div>
+                    <input type="radio" class="inline" name="grub" id="european-chafer-beetle"
+                        value="european-chafer-beetle"><label for="european-chafer-beetle"> European Chafer
+                        Beetle</label>
+                </div>
+                <div>
+                    <input type="radio" class="inline" name="grub" id="june-beetle" value="june-beetle"><label
+                        for="june-beetle"> June Beetle</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>I like my grubs...</legend>
+                <div><input name="grub-qualities" value="chonky" type="checkbox" class="inline"><label>chonky</label>
+                </div>
+                <div>
+                    <input name="grub-qualities" value="c-shaped" type="checkbox" class="inline"><label>c-shaped</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Other grub thoughts🪱</legend>
+                <textarea></textarea>
+            </fieldset>
+            <input id="submit" type="submit" value="submit"></input>
+    </form>
+</body>
+
+</html>
